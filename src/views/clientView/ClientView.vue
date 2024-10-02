@@ -5,7 +5,6 @@ import { ref } from 'vue';
 import 'vue3-toastify/dist/index.css';
 import { toast } from "vue3-toastify";
 
-import image1 from '@/assets/a-mobile.jpeg';
 import image2 from '@/assets/b_mobile.jpeg';
 import image3 from '@/assets/c_mobile.jpeg';
 import image4 from '@/assets/d_mobile.jpeg';
@@ -19,7 +18,6 @@ setInterval(() => {
 
 
 const slides = [
-    image1,
     image2,
     image3,
     image4
